@@ -6,14 +6,17 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const knex = require('knex')({
     client : 'pg',
-    version : '11.4',
+    version : '11.2',
     connection :{
-        host:'127.0.0.1',
-        user : 'postgres',
-        password : '1411',
-        database : 'smartbrain'
+        connectionString: process.env.DATABASE_URL,
+        ssl: true,
     }
 });
+
+// const knex = require('knex')({
+//     connectionString: process.env.postgresql-clear-68690,
+//     ssl: true,
+//   });
 
 
 const db  = knex;
