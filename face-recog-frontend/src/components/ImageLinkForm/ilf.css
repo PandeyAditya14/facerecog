@@ -1,0 +1,9 @@
+.form{
+    width: 60%;
+    background: radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, rgb(102, 17, 51) 10px, rgba(96, 16, 48, 0) 11px) 0px 10px / 20px 20px, radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, rgb(102, 17, 51) 10px, rgba(96, 16, 48, 0) 11px), rgb(136, 170, 51); --darkreader-inline-bgimage:radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, #661133 10px, rgba(96, 16, 48, 0) 11px), initial; --darkreader-inline-bgcolor:#688227;
+}
+.btsize{
+    width:30%;
+    min-width:85px;
+
+}
